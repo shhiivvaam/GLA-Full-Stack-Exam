@@ -1,3 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right bottom,#eef4f4,#dee0e8,#9d9ea1);
+}
+
+#service .card:hover{
+    background:#2d3436;
+    color:#ffff;
+}
+
 .navbar{
     border-bottom: #2980B9 solid 5px ;
 }
@@ -6,13 +21,4 @@
     margin-top: -70px;
     width: 100px;
     height: 100px;
-}
-
-#service .card:hover{
-background:#2d3436;
-color:#ffff;
-}
-body
-{
-    background: linear-gradient(to right bottom,#eef4f4,#dee0e8,#9d9ea1);
 }
